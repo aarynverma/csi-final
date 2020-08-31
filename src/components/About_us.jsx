@@ -11,7 +11,7 @@ class About_us extends Component {
                         <div className="row">
                             <div className="col-md-5">
                                     <div className="row">
-                                        <img src="../img/service1.jpg"  alt="Our vision" className="team-img img-fluid" />
+                                        <img src="../img/service1.png"  alt="Our vision" className="team-img img-fluid" />
                                     </div>
                             </div>
                             <div className="col-md-5 col-md-offset-2">
@@ -56,7 +56,7 @@ class About_us extends Component {
                                     </p>
                             </div>
                             <div className="col-md-3 ">
-                            <img src="../img/service2.jpg"  alt="Our vision" className="team-img img-fluid" />
+                            <img src="../img/service2.png"  alt="Our vision" className="team-img img-fluid" />
                                           
                             </div>
                         </div>
@@ -66,7 +66,7 @@ class About_us extends Component {
                         <div className="row">
                             <div className="col-md-5">
                                     <div className="row">
-                                        <img src="../img/service3.jpg"  alt="Our vision" className="team-img img-fluid" />
+                                        <img src="../img/service3.png"  alt="Our vision" className="team-img img-fluid" />
                                     </div>
                             </div>
                             <div className="col-md-5 col-md-offset-2">
