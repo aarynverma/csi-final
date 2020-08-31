@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/csi-final/static/css/main.6562f555.chunk.css",
+    "main.js": "/csi-final/static/js/main.71dfd2bb.chunk.js",
+    "main.js.map": "/csi-final/static/js/main.71dfd2bb.chunk.js.map",
+    "runtime-main.js": "/csi-final/static/js/runtime-main.76f955f5.js",
+    "runtime-main.js.map": "/csi-final/static/js/runtime-main.76f955f5.js.map",
+    "static/js/2.803c19a4.chunk.js": "/csi-final/static/js/2.803c19a4.chunk.js",
+    "static/js/2.803c19a4.chunk.js.map": "/csi-final/static/js/2.803c19a4.chunk.js.map",
+    "index.html": "/csi-final/index.html",
+    "precache-manifest.b992bf21f447e322300b13d3770264a0.js": "/csi-final/precache-manifest.b992bf21f447e322300b13d3770264a0.js",
+    "service-worker.js": "/csi-final/service-worker.js",
+    "static/css/main.6562f555.chunk.css.map": "/csi-final/static/css/main.6562f555.chunk.css.map",
+    "static/js/2.803c19a4.chunk.js.LICENSE.txt": "/csi-final/static/js/2.803c19a4.chunk.js.LICENSE.txt",
+    "static/media/csi-logo.png": "/csi-final/static/media/csi-logo.d8d4d303.png",
+    "static/media/svvv-logo.png": "/csi-final/static/media/svvv-logo.e9b8a381.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76f955f5.js",
+    "static/js/2.803c19a4.chunk.js",
+    "static/css/main.6562f555.chunk.css",
+    "static/js/main.71dfd2bb.chunk.js"
+  ]
+}
