@@ -7,12 +7,14 @@ export class Header extends Component {
        <header id="header">
         
         <div className="intro">
-        <ParticlesBg type="cobweb" color="#0575E6" num={400}  bg={true} />
+        <ParticlesBg type="cobweb" color="#0575E6" num={200}  bg={true} />
       
           <div className="overlay">
             <div className="container">
               <div className="row">
+                
                 <div className="col-md-8 col-md-offset-2 intro-text">
+                <img src="../img/logo.png" alt="logo" style={{height: '90px'}}/><br/><br/>
                   <h1>
                     {this.props.data ? this.props.data.title : "Loading"}
                     <span></span>

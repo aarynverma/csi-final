@@ -29,7 +29,6 @@ export class App extends Component {
   render() {
     return (
       <div>
-        
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <About_SVVV data={this.state.landingPageData.Features} />

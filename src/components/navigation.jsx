@@ -1,39 +1,23 @@
 import React, { Component } from "react";
-
+import './App.css';
+import csilogo from './csi-logo.png';
 export class Navigation extends Component {
   
   render() {
     return (
-      <nav id="menu" className="navbar navbar-default">
-         
+      <div > 
+      
+      <nav id="menu" className="navbar navbar-default navbar-fixed-top aryan">
+       
       
           {/* <nav id="menu" className="navbar navbar-default navbar-fixed-top"></nav> */}
-        <div className="container"> 
-                  <div className="navbar-header">
-                        <button
-                              type="button"
-                              className="navbar-toggle collapsed"
-                              data-toggle="collapse"
-                              data-target="#bs-example-navbar-collapse-1">
-                              
-                              <span className="sr-only">Toggle navigation</span>
-                              <span className="icon-bar"></span>
-                              <span className="icon-bar"></span>
-                              <span className="icon-bar"></span>
-                        </button>
-                        
-                        <img  href="#page-top" className="navbar-brand page-scroll" src="../img/logo.png" alt="logo" />
-                      
-                  </div>
-              
-			
-         
-           <div
-            className="collapse navbar-collapse"
-            id="bs-example-navbar-collapse-1"
-          >
-            <ul className="nav navbar-nav navbar-right">
-            
+        <div className="container">     
+          <div
+            className="collapse navbar-collapse "
+            id="bs-example-navbar-collapse-1">
+          
+            <ul className="nav navbar-nav navbar-left">  
+            <img  href="#page-top" className="navbar-brand page-scroll" src={csilogo} alt="logo" style={{height: '70px' , width: '70px', marginright: '5em' }}/>
               <li>
                 <a href="#header" className="page-scroll">
                   HOME
@@ -72,7 +56,9 @@ export class Navigation extends Component {
             </ul>
           </div> 
         </div>
+        
       </nav>
+      </div>
     );
   }
 }
